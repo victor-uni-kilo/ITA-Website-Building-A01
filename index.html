@@ -16,11 +16,13 @@
   <div class="container-fluid p-0">
 
     <header class="cst-px py-3">
+      <nav class="navbar navbar-expand-lg navbar-light">
 
-      <nav class="navbar navbar-expand-md navbar-light">
-        <a class="display-6 display-md-4 text-nowrap text-decoration-none text-dark cst-font-family" href="#">My
-          Website
+        <a class="display-6 display-md-4 cst-font-family me-2
+          text-nowrap text-decoration-none text-dark" href="#">
+          My Website
         </a>
+
         <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
           data-bs-focus="false" data-bs-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -29,37 +31,43 @@
         </button>
 
         <div class="collapse navbar-collapse" id="toggleMobileMenu">
-          <ul id="nav-list" class="navbar-nav ms-auto fs-6 p-0">
-            <li><a class="nav-link p-0" href="#">Home</a></li>
-            <li><a class="nav-link p-0" href="#">Portfolio</a></li>
-            <li><a class="nav-link p-0" href="#">Staff</a></li>
-            <li><a class="nav-link p-0" href="#">Features</a></li>
-            <li><a class="nav-link p-0" href="#">Blog</a></li>
-            <li><a class="nav-link p-0" href="#">Contacts</a></li>
+          <ul class="navbar-nav ms-auto fs-6 p-0 ">
+            <li><a class="nav-link p-0 me-lg-3 me-xl-4" href="#">Home</a></li>
+            <li><a class="nav-link p-0 me-lg-3 me-xl-4" href="#">Portfolio</a></li>
+            <li><a class="nav-link p-0 me-lg-3 me-xl-4" href="#">Staff</a></li>
+            <li><a class="nav-link p-0 me-lg-3 me-xl-4" href="#">Features</a></li>
+            <li><a class="nav-link p-0 me-lg-3 me-xl-4" href="#">Blog</a></li>
+            <li><a class="nav-link p-0 me-lg-3 me-xl-4" href="#">Contacts</a></li>
             <li><a class="nav-link p-0" href="#">Download</a></li>
           </ul>
         </div>
       </nav>
     </header>
+
     <!-- HERO BANNER -->
     <section class="container-fluid position-relative px-0">
-      <img class="d-block w-100" src="images/hero.jpg" alt="hero-image">
-      <div class="cst-px row justify-content-md-start justify-content-sm-center">
-        <span
-          class="col-12 col-md-6 col-xl-5 cst-banner position-absolute top-0 mt-5 p-3 fs-6 fs-xl-4 fw-bold text-center text-light">
-          We strive to make all of our creations exquisite.
-        </span>
+      <img class="w-100" src="images/hero.jpg" alt="hero-image">
+      <div>
+        <div class="row position-absolute top-0 h-100 w-100 cst-px 
+            justify-content-center align-items-center m-0
+            justify-content-md-start align-items-md-start mt-md-4 mt-lg-5">
+          <span class="col-12 col-md-9 col-lg-6 fs-6 p-3
+              text-sm-nowrap text-center text-light fw-bold cst-bg-primary">
+            We strive to make all of our creations exquisite.
+          </span>
+        </div>
       </div>
     </section>
+
     <!-- SELLING POINTS -->
-    <section id="selling-points" class="container-fluid cst-px">
+    <section class="container-fluid cst-px">
       <div class="row g-md-2 g-xl-3">
 
         <div class="col-12 col-xl-3">
           <div class="text-center">
             <img src="/images/icons/icon-1.png" alt="Rocket icon.">
             <h5 class="fw-bold cst-sell-points">Purpose</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Vestibulum sapien nisi, suscipit vitae euismod vitae, imperdiet eget est. Etiam tincidunt tempus.
             </p>
           </div>
@@ -69,7 +77,7 @@
           <div class="text-center">
             <img src="/images/icons/icon-2.png" alt="Thumbs up icon.">
             <h5 class="fw-bold cst-sell-points">Quality</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Nam commodo risus pharetra magna egestas, nec iaculis augue lobortis. Proin eleifend enim quis.
             </p>
           </div>
@@ -79,7 +87,7 @@
           <div class="text-center">
             <img src="/images/icons/icon-3.png" alt="Gears icon.">
             <h5 class="fw-bold cst-sell-points">Function</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Aenean et tellus id nisi vehicula fringilla. In condimentum dui eu turpis mollis turpis suscipit.
             </p>
           </div>
@@ -90,7 +98,7 @@
           <div class="text-center">
             <img src="/images/icons/icon-4.png" alt="Star icon.">
             <h5 class="fw-bold cst-sell-points">Elegant</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Mauris accumsan magna in placerat lacinia. Proin sit amet neque vitae nunc pulvinar varius.
             </p>
           </div>
@@ -98,16 +106,18 @@
 
       </div>
     </section>
+
     <!-- RECENT WORK -->
-    <section id="recent-work" class="container-fluid cst-px">
-      <h4 class="cst-fs-5to6 fw-bold cst-mb-4to5 border-bottom border-muted">RECENT WORK</h4>
+    <section class="container-fluid cst-px">
+      <h4 class="cst-headline-fs fw-bold mb-4 border-bottom border-muted">RECENT WORK</h4>
 
       <div class="row g-md-2 g-xl-3">
+
         <div class="col-12 col-md-6 col-xl-3">
           <img class="img-fluid w-100" src="/images/bike-400x340.jpg" alt="Bicycle parked in the street.">
           <div class="my-2">
             <h5 class="fw-bold cst-article-title">Green Bike</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Beautiful, Travel
             </p>
           </div>
@@ -117,7 +127,7 @@
           <img class="img-fluid w-100" src="/images/surf-400x340.jpg" alt="Surf.">
           <div class="my-2">
             <h5 class="fw-bold cst-article-title">Salt Of The Earth</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Beautiful, Travel
             </p>
           </div>
@@ -127,7 +137,7 @@
           <img class="img-fluid w-100" src="/images/hills-400x340.jpg" alt="Areal view of a mountain range">
           <div class="my-2">
             <h5 class="fw-bold cst-article-title">Mountain High</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Travel
             </p>
           </div>
@@ -137,7 +147,7 @@
           <img class="img-fluid w-100" src="/images/path-400x340.jpg" alt="Path leading through the woods.">
           <div class="my-2">
             <h5 class="fw-bold cst-article-title">When A Tree Falls</h5>
-            <p class="text-muted">
+            <p class="text-secondary">
               Beautiful
             </p>
           </div>
@@ -145,9 +155,10 @@
 
       </div>
     </section>
+
     <!-- FROM THE BLOG -->
-    <section id="recent-work" class="container-fluid cst-px">
-      <h4 class="cst-fs-5to6 fw-bold cst-mb-4to5 border-bottom border-muted">FROM THE BLOG</h4>
+    <section class="container-fluid cst-px">
+      <h4 class="cst-headline-fs fw-bold mb-4 border-bottom border-muted">FROM THE BLOG</h4>
 
       <div class="row g-md-2 g-xl-3">
 
@@ -198,54 +209,47 @@
 
     <!-- FOOTER -->
     <footer class="text-light bg-dark">
-      <section id="recent-work" class="container-fluid cst-px">
+      <section class="container-fluid cst-px">
+
         <div class="row g-xl-4">
 
           <div class="col-12 col-xl-4">
-            <div>
-              <h5 class="cst-fs-5to6 fw-bold mb-2">My Website</h5>
-              <p class="lh-lg cst-fs-7 cst-text-darkgray">
-                Quisque id dolor leo. Vivamus tincidunt in diam ac condimentum. Quisque rutrum dolor dolor, non
-                tincidunt tellus sollicitudin vitae. Mauris a dolor ut nibh volutpat aliquam. Sed dictum magna eu massa
-                accumsan, sit amet viverra ligula gravida. Nam vehicula ut leo aliquet sodales.
-              </p>
-            </div>
+            <h5 class="cst-headline-fs fw-bold mb-2">My Website</h5>
+            <p class="lh-md cst-fs-7 cst-text-darkgray">
+              Quisque id dolor leo. Vivamus tincidunt in diam ac condimentum. Quisque rutrum dolor dolor, non
+              tincidunt tellus sollicitudin vitae. Mauris a dolor ut nibh volutpat aliquam. Sed dictum magna eu massa
+              accumsan, sit amet viverra ligula gravida. Nam vehicula ut leo aliquet sodales.
+            </p>
           </div>
 
           <div class="col-12 col-xl-4">
-            <div>
-              <h5 class="cst-fs-5to6 fw-bold mb-3">Recent Posts</h5>
-              <ul class="px-0 text-muted" type="none">
-                <li class="cst-fs-7 py-1 border-bottom border-top border-secondary">How Now</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary">Adrift by Simon Christen</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary">A Walk In The Park</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary">Time To Think</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary">Field Of Dreams</li>
-              </ul>
-            </div>
+            <h5 class="cst-headline-fs fw-bold mb-3">Recent Posts</h5>
+            <ul class="px-0 text-secondary" type="none">
+              <li class="cst-fs-7 py-1 border-bottom border-top border-secondary">How Now</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary">Adrift by Simon Christen</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary">A Walk In The Park</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary">Time To Think</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary">Field Of Dreams</li>
+            </ul>
           </div>
 
           <div class="col-12 col-xl-4">
-            <div>
-              <h5 class="cst-fs-5to6 mb-3 fw-bold">Recent Work</h5>
-              <ul class="px-0 text-muted" type="none">
-                <li class="cst-fs-7 py-1 border-bottom border-top border-secondary">Beautiful</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary ">Travel</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary ">Surreal</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary ">Thoughts</li>
-                <li class="cst-fs-7 py-1 border-bottom border-secondary ">Unique</li>
-              </ul>
-            </div>
+            <h5 class="cst-headline-fs mb-3 fw-bold">Recent Work</h5>
+            <ul class="px-0 text-secondary" type="none">
+              <li class="cst-fs-7 py-1 border-bottom border-top border-secondary">Beautiful</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary ">Travel</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary ">Surreal</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary ">Thoughts</li>
+              <li class="cst-fs-7 py-1 border-bottom border-secondary ">Unique</li>
+            </ul>
           </div>
 
         </div>
       </section>
       <div class="text-center cst-bg-darker">
-        <span class="text-muted cst-fs-7">© 2020 ITAcademy</span>
+        <span class="text-secondary cst-fs-xsm">© 2020 ITAcademy</span>
       </div>
     </footer>
-
-
 
   </div>
 </body>
